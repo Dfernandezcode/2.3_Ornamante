@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Rubik+Distressed&display=swap');
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+header{
+    height: 200px;
+}
+
+.nav {
+    display: none;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-text > a, .nav-text{
+    margin: 0 5px;
+    list-style: none;
+    color: #000;
+}
+.banner{
+    height: 100%;
+    width: 100%;
+}
+.header-language{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    margin: 0 50px;
+}
+.header-language-text{
+    text-align: center;
+    color: gray;
+    margin: 0 10px;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+span{
+    font-size: 40px;
+    margin: 0 40px;
+}
+.header-logo{
+    justify-content: center;
+    width: 20%;
+}
+.header-logo img, .home-img{
+    width: 100%;
+}
+.product-name, .other-products-name{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 150px;
+}
+.product-container, .other-products-container{
+    max-width: 768px;
+    text-align: center;
+    margin: 0 auto;
+}
+.product-item, .other-product-item{
+    display: inline-block;
+    margin: 0 auto;
+    width: 90%;
+}
+.product-img, .other-product-img{
+    width: 100%;
+}
+.product-title, .other-product-title{
+    font-size: 1.25em;
+    font-weight: 400;
+    margin: 10px;
+}
+.product-subtitle{
+    font-size: 0.75em;
+    font-weight: 400;
+    margin: 0px;
+}
+
+footer{
+    margin-top: 100px;
+}
+.footer-text{
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 50px;
+    text-align: center;
+    border-top: 1px solid #d3d3d3;
+    color: #d3d3d3;
+    padding-top: 20px;
+}
+.footer-container{
+    display:none;
+    justify-content: space-evenly;
+}
+.footer-list-text, a{
+    text-decoration: none;
+    list-style: none;
+    color: #d3d3d3;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .nav{
+        display: none;
+    }
+    .product-container, .other-products-container{
+        text-align: center;
+    }
+    .product-item, .other-product-item{
+        width: 45%;
+    }
+    .footer-container{
+        display: none;
+    }
+}@media screen and (min-width: 1025px) and (max-width: 1280px) {
+
+    .header-menu{
+        display: none;
+    }
+
+    .header-language{
+        display: flex;
+        align-items: center;
+        justify-content: right;
+    }
+    .header-logo{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        margin: 50px;
+    }
+    .header-language-text{
+        color: gray;
+    }
+    .nav{
+        display: flex;
+    }
+
+    .product-container, .other-products-container{
+        text-align: center;
+    }
+    .product-item, .other-product-item{
+        width: 30%;
+    }
+    .product-img, .other-product-img{
+        width: 100%;
+    }
+    .footer-container{
+        display:flex;
+    }
+    .footer-text{
+        text-align: left;
+    }
+}
+@media screen and (min-width: 1281px) {
+
+    .header-menu{
+        display: none;
+    }
+
+    .header-language{
+        display: flex;
+        align-items: center;
+        justify-content: right;
+    }
+    .header-language-text{
+        color: gray;
+    }
+    .header-logo{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        margin: 50px;
+    }
+    .nav{
+        display: flex;
+    }
+
+    .product-container, .other-products-container{
+        text-align: center;
+    }
+    .product-item, .other-product-item{
+        width: 20%;
+    }
+    .product-img, .other-product-img{
+        width: 100%;
+    }
+    .footer-container{
+        display:flex;
+    }
+    .footer-text{
+        text-align: left;
+    }
+}
+
+
+
